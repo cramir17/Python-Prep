@@ -12,7 +12,18 @@ def Factorial(numero):
         Factorial(-2) debe retornar nulo
     '''
     #Tu código aca:
-    return 'Funcion incompleta'
+    if type(numero) != int:
+        return None
+    if numero < 1:
+        return None
+    
+    factorial = 1
+
+    while (numero > 1):
+        factorial = factorial * numero
+        numero = numero -1
+
+    return factorial
 
 def EsPrimo(valor):
     '''

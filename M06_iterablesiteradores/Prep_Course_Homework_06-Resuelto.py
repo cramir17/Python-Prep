@@ -20,7 +20,8 @@ print(lista)
 
 # In[3]:
 
-
+lista = []
+n = -15
 n = 0
 while (n < len(lista)):
     if (lista[n] % 2 == 0):
