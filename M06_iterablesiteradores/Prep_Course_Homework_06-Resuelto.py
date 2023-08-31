@@ -24,7 +24,7 @@ lista = []
 n = -15
 n = 0
 while (n < len(lista)):
-    if (lista[n] % 2 == 0):
+    if lista[n] % 2 == 0:
         print(lista[n])
     n += 1
 
