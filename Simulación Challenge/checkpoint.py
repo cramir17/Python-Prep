@@ -45,7 +45,7 @@ def EsPrimo(valor):
         if (valor % i) == 0:
             Primo = False
             break
-        i += 1
+        
 
     return Primo
 
